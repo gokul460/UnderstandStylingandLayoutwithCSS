@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UnderstandStylingandLayoutWithCSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id='sticky'>
+        <div>
+            <h4 id="FocusPro">FocusPro</h4>
+        </div>
+        <div>
+            <p>Position:sticky</p>
+        </div>
+        <div id="rightSideOfHeader">
+            <div>
+                <span style="margin-right:5px;"><a href="#" style="text-decoration:none;">Home</a></span>
+                <span style="margin-right:0px;"><a href="#" style="text-decoration:none">Features</a></span>
+            </div>
+            <div>
+                <span style="margin-right:0px;"><a href="#" style="text-decoration:none">News</a></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="Description">
+
+            <h1>Focus Better. Work Smarter.</h1>
+            <p>A simple productivity app for developers.</p>
+
+            <div>
+                 <button style="background-color:red;color:white;padding:10px;">Get started</button>
+                  <button style="background-color:blue;color:white;padding:10px">Learn More</button>
+            </div>
+           
+        </section>
+
+        <hr>
+
+        <section id="features" >
+
+            <div>
+                <h4>FEATURES</h4>
+            </div>
+
+            <div>
+                <div class="fCards">Focus mode</div>
+                <div class="fCards">Analytics</div>
+                <div class="fCards">Challenge</div>
+            </div>
+
+            <div>
+                <h5 style="color:white;">Limited offer</h5>
+            </div>
+
+
+            <div>
+                <div>
+                <h3 style="color:white">Available plans</h3>
+                <div style="display:inline-block;background-color:white;padding:10px;">inline</div>
+                <div style="display:inline-block;background-color:white;padding:10px;">inline-block</div>
+                <div style="display:inline-flexbox;background-color:white;padding:30px;position: relative;width:50px;height:auto;margin:10px;">
+                    <span style="position:absolute;bottom: 0px;left:0px;">absolute</span>
+                    <span style="position:absolute;top:0px;right:0px;">relative</span>
+                </div>
+                <p style="display:inline-block;background-color:white;padding:10px;">Not hided Now, use display:none here</p>
+                </div>
+            </div>
+
+            <button style="position:fixed;right:20px;bottom: 10px;">This button will stay here forever(position:fixed)</button>
+
+        </section>
+
+
+    </main>
+
+
+</body>
+</html>
